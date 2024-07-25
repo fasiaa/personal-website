@@ -125,7 +125,7 @@
   }
   
   .project-title {
-    font-family: Lalezar, sans-serif;
+    font-family: helvectica, sans-serif;
   }
   
   .project-description {
@@ -143,12 +143,12 @@
     justify-content: center;
     align-items: center;
     gap: 19px;
-    margin-top: 52px;
+    margin-top: 12px;
     font: 22px Exo-2, sans-serif;
   }
   
   .contact-icon {
-    width: 61px;
+    width: 28px;
     aspect-ratio: 1;
   }
   
@@ -160,7 +160,7 @@
   }
   
   .social-icon {
-    width: 60px;
+    width: 40px;
     aspect-ratio: 1;
     border-radius: 10px;
   }
@@ -176,6 +176,7 @@
   
     .name {
       font-size: 40px;
+      display: none;
     }
   
     .nav {
@@ -183,7 +184,7 @@
     }
   
     .main-content {
-      margin-top: 40px;
+      margin-top: 30px;
     }
   
     .intro-section {
