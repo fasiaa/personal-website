@@ -7,6 +7,11 @@
     color: #e9e6e6;
   }
 
+  html {
+    scroll-behavior: smooth;
+    background-color: #0b0a0a;
+  }
+
   a{
     text-decoration: none;
     color: #e9e6e6;
@@ -36,7 +41,7 @@
   .nav {
     display: flex;
     gap: 20px;
-    font-size: 26px;
+    font-size: 20px;
     font-family: Exo-2, sans-serif;
   }
   
@@ -84,13 +89,18 @@
   }
   
   .section-title {
-    font: 96px Lalezar, sans-serif;
-    margin-top: 571px;
+    font: 60px Lalezar, sans-serif;
+    margin-top: 150px;
   }
 
   .projects-div{
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .project-div-items{
+    opacity: 100%;
+    filter: blur(0px);
   }
   
   .about-div{
@@ -124,7 +134,7 @@
   }
   
   .contact-section {
-    margin-top: 447px;
+    margin-top: 147px;
     text-align: center;
   }
   
@@ -213,3 +223,26 @@
       margin-top: 40px;
     }
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+  scroll-behavior: smooth;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #242424; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3b3b3b; 
+}
