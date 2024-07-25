@@ -41,9 +41,11 @@
   }
   
   .main-content {
-    margin-top: 186px;
-    width: 100%;
-    max-width: 1467px;
+    margin-top: 15px;
+    /* width: 100%; */
+    /* max-width: 1467px; */
+    padding-left: 5%;
+    padding-right: 5%;
   }
   
   .intro-section {
@@ -76,7 +78,7 @@
   
   .bio {
     margin-top: 1px;
-    font: 28px Exo-2, sans-serif;
+    font: 22px Exo-2, sans-serif;
     padding-right: 50px;
     padding-left: 20px;
   }
@@ -92,13 +94,13 @@
   }
   
   .about-div{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .about-text {
     margin-top: 64px;
-    font: 28px Exo-2, sans-serif;
+    font: 22px Exo-2, sans-serif;
   }
   
   .projects-list {
@@ -148,9 +150,9 @@
   }
   
   .social-icon {
-    width: 90px;
+    width: 60px;
     aspect-ratio: 1;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   
   @media (max-width: 991px) {
@@ -193,10 +195,6 @@
     .section-title {
       font-size: 36px;
       margin: 0px 0 0 10px;
-    }
-  
-    .about-text {
-      margin-top: 40px;
     }
   
     .projects-list {
