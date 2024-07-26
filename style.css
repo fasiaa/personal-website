@@ -172,6 +172,7 @@
   
     .header {
       flex-wrap: wrap;
+      padding: 5%
     }
   
     .name {
