@@ -18,7 +18,9 @@
   }
 
   a:hover{
-    color: #918e8e
+    /* color: #918e8e; */
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.7); /* White glow effect */
   }
   
   .header {
@@ -79,6 +81,7 @@
   
   .greeting {
     font: 56px Lalezar, sans-serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.7); /* White glow effect */
   }
   
   .bio {
@@ -164,6 +167,10 @@
     aspect-ratio: 1;
     border-radius: 10px;
   }
+
+  .social-icon:hover{
+    transform: scale(1.2);
+    }
   
   @media (max-width: 991px) {
     .portfolio-container {
